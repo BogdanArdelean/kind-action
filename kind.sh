@@ -183,7 +183,7 @@ install_kind() {
 
     mkdir -p "$kind_dir"
 
-    curl -sSLo "$kind_dir/kind" "https://github.com/kubernetes-sigs/kind/releases/download/$version/kind-linux-amd64"
+    curl -sSLo "$kind_dir/kind" "https://github.com/kubernetes-sigs/kind/releases/download/v0.14.0/kind-linux-amd64"
     chmod +x "$kind_dir/kind"
 }
 
