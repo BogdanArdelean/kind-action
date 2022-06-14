@@ -192,7 +192,7 @@ install_kubectl() {
 
     mkdir -p "$kubectl_dir"
 
-    curl -sSLo "$kubectl_dir/kubectl" "https://storage.googleapis.com/kubernetes-release/release/$kubectl_version/bin/linux/amd64/kubectl"
+    curl -sSLo "$kubectl_dir/kubectl" "https://storage.googleapis.com/kubernetes-release/release/v1.24.0/bin/linux/amd64/kubectl"
     chmod +x "$kubectl_dir/kubectl"
 }
 
